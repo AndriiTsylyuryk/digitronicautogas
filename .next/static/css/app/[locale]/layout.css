@@ -1,0 +1,203 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/layout/Header.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__ZPN_X {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--color-border-dark);
+}
+
+.Header_inner__q09Ou {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--section-px);
+  height: 68px;
+}
+
+/* ── Logo ─────────────────────────────────────────────────────────────── */
+.Header_logo__1hGYx {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Let the image fill naturally up to 160 px wide, never overflow */
+.Header_logoImg__exmVV {
+  height: 40px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+/* ── Navigation ──────────────────────────────────────────────────────── */
+.Header_nav__LLUoy {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex: 1 1;
+  justify-content: flex-end;
+  margin-right: 0.5rem;
+}
+
+.Header_navLink__SqOUL {
+  padding: 0.375rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65);
+  transition: color var(--transition-fast), background var(--transition-fast);
+  white-space: nowrap;
+}
+
+.Header_navLink__SqOUL:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.Header_navCta__cre4Y {
+  padding: 0.4375rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-primary-light);
+  border: 1px solid rgba(249, 115, 22, 0.35);
+  white-space: nowrap;
+  transition: color var(--transition-fast), background var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.Header_navCta__cre4Y:hover {
+  color: #ffffff;
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .Header_nav__LLUoy {
+    display: none;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/layout/Footer.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__LxLGV {
+  background: var(--color-dark);
+  color: rgba(255, 255, 255, 0.55);
+  padding-top: 48px;
+}
+
+.Footer_inner__4mERO {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--section-px) 48px;
+}
+
+/* ── Brand ────────────────────────────────────────────────────────────── */
+.Footer_brand__hrKsL {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.Footer_brandName__XOcol {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+}
+
+.Footer_accent__12E_T {
+  color: var(--color-primary);
+}
+
+.Footer_tagline__JbGy8 {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.45);
+  max-width: 260px;
+}
+
+/* ── Links ────────────────────────────────────────────────────────────── */
+.Footer_links__kRMrM {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Footer_link__DGU0S {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color var(--transition-fast);
+}
+
+.Footer_link__DGU0S:hover {
+  color: #ffffff;
+}
+
+/* ── Bottom bar ──────────────────────────────────────────────────────── */
+.Footer_bottom__GqBWJ {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 16px var(--section-px);
+  max-width: 100%;
+}
+
+.Footer_copyright__lB5DI {
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/layout/LanguageSwitcher.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.LanguageSwitcher_switcher__Wu16E {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.LanguageSwitcher_btn__8v9Wb {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.55);
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+
+.LanguageSwitcher_btn__8v9Wb:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.LanguageSwitcher_active__T4hbd {
+  color: var(--color-primary-light);
+  background: rgba(249, 115, 22, 0.12);
+}
+
+.LanguageSwitcher_active__T4hbd:hover {
+  color: var(--color-primary-light);
+  background: rgba(249, 115, 22, 0.16);
+}
+

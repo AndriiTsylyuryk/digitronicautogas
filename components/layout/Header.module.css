@@ -1,0 +1,86 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--color-border-dark);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--section-px);
+  height: 68px;
+}
+
+/* ── Logo ─────────────────────────────────────────────────────────────── */
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Let the image fill naturally up to 160 px wide, never overflow */
+.logoImg {
+  height: 40px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+/* ── Navigation ──────────────────────────────────────────────────────── */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex: 1;
+  justify-content: flex-end;
+  margin-right: 0.5rem;
+}
+
+.navLink {
+  padding: 0.375rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65);
+  transition: color var(--transition-fast), background var(--transition-fast);
+  white-space: nowrap;
+}
+
+.navLink:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.navCta {
+  padding: 0.4375rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-primary-light);
+  border: 1px solid rgba(249, 115, 22, 0.35);
+  white-space: nowrap;
+  transition: color var(--transition-fast), background var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.navCta:hover {
+  color: #ffffff;
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}

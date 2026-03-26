@@ -1,0 +1,87 @@
+.section {
+  background: var(--color-surface-2);
+  padding: var(--section-py) var(--section-px);
+}
+
+.container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+/* ── Section header ──────────────────────────────────────────────────── */
+.header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 3.5rem;
+}
+
+.title {
+  font-size: clamp(1.625rem, 3.5vw, 2.375rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--color-dark);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.0625rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+/* ── Feature grid ─────────────────────────────────────────────────────── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  list-style: none;
+}
+
+/* ── Card ─────────────────────────────────────────────────────────────── */
+.card {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.75rem;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.iconWrap {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: rgba(249, 115, 22, 0.08);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.cardTitle {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  margin-bottom: 0.625rem;
+  letter-spacing: -0.01em;
+}
+
+.cardDesc {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
