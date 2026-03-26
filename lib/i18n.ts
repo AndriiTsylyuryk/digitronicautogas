@@ -3,7 +3,7 @@ import { en } from '@/lib/translations/en';
 import { ru } from '@/lib/translations/ru';
 import { et } from '@/lib/translations/et';
 
-export const LOCALES = ['en', 'ru', 'et'] as const;
+export const LOCALES = ['et', 'en', 'ru'] as const;
 export type Locale = (typeof LOCALES)[number];
 
 // Default locale for the .ee domain — Estonian

@@ -97,10 +97,10 @@ export const et: Translation = {
     subtitle:
       'Võtke meiega ühendust allpool toodud kanalite kaudu. Oleme kättesaadavad tööajal.',
     items: {
-      email: { label: 'E-post', value: 'info@digitronicgas.ee' },
-      phone: { label: 'Telefon', value: '+372 5XXX XXXX' },
+      email: { label: 'E-post', value: 'autoremont.est@gmail.com' },
+      phone: { label: 'Telefon', value: '+372 5657 1565' },
       telegram: { label: 'Telegram', value: '@digitronicgas' },
-      address: { label: 'Aadress', value: 'Tallinn, Eesti' },
+      address: { label: 'Aadress', value: 'Harju maakond, Tallinn, Haabersti linnaosa, Vana-Rannamõisa tee 1d/5, 13516' },
       hours: { label: 'Tööaeg', value: 'E–R 9:00–18:00' },
     },
   },

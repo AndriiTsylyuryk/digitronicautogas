@@ -67,7 +67,7 @@ export const en: Translation = {
     },
     email: {
       label: 'Email Address',
-      placeholder: 'you@example.com',
+      placeholder: 'your@email.com',
     },
     consent:
       'By submitting this form, you agree to be contacted regarding your inquiry. We do not share your data with third parties.',
@@ -97,10 +97,10 @@ export const en: Translation = {
     subtitle:
       'Reach us through any of the channels below. We are available during business hours.',
     items: {
-      email: { label: 'Email', value: 'info@digitronicgas.ee' },
-      phone: { label: 'Phone', value: '+372 5XXX XXXX' },
+      email: { label: 'Email', value: 'autoremont.est@gmail.com' },
+      phone: { label: 'Phone', value: '+372 5657 1565' },
       telegram: { label: 'Telegram', value: '@digitronicgas' },
-      address: { label: 'Address', value: 'Tallinn, Estonia' },
+      address: { label: 'Address', value: 'Harju maakond, Tallinn, Haabersti linnaosa, Vana-Rannamõisa tee 1d/5, 13516' },
       hours: { label: 'Working Hours', value: 'Mon–Fri 9:00–18:00' },
     },
   },
