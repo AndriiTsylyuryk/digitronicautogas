@@ -19,7 +19,7 @@ interface FieldErrors {
 type Status = 'idle' | 'submitting' | 'success' | 'error' | 'rateLimit';
 
 // ── Client-side validators (mirrors server-side rules in lib/validation.ts) ──
-const PLATE_RE = /^[A-Z]{2,3}[\s-]?[0-9]{2,4}$/;
+const PLATE_RE = /^(?:CD[\s-]?\d{1,4}|[0-9]{2,4}[\s-]?[A-Z]{2,3})$/;
 const PHONE_RE = /^\+?[\d\s\-().]{7,25}$/;
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 

@@ -5,20 +5,20 @@ import { z } from 'zod';
  *
  * Supported formats (in order of real-world frequency):
  *
- *  1. Standard modern   — 3 letters + 3 digits: "ABC 123" or "ABC123"
- *  2. Older series      — 2 letters + 4 digits: "AB 1234" or "AB1234"
+ *  1. Standard modern   — 3 digits + 3 letters: "123 ABC" or "123ABC"
+ *  2. Older series      — 4 digits + 2 letters: "1234 AB" or "1234AB"
  *  3. Diplomatic/CD     — CD prefix + digits:   "CD 001"
  *
  * Rules applied:
  *  - Letters are A-Z only (Estonian plates use standard Latin alphabet)
- *  - An optional single space or hyphen between the letter and digit groups is accepted
+ *  - An optional single space or hyphen between the digit and letter groups is accepted
  *  - Input is normalised to UPPER CASE before validation
  *  - Leading/trailing whitespace is stripped
  *
  * Adjust this regex if new official formats are introduced.
  * Live-test the regex at: https://regex101.com/
  */
-const ESTONIAN_PLATE_REGEX = /^[A-Z]{2,3}[\s-]?[0-9]{2,4}$/;
+const ESTONIAN_PLATE_REGEX = /^(?:CD[\s-]?\d{1,4}|[0-9]{2,4}[\s-]?[A-Z]{2,3})$/;
 
 /**
  * Normalises a raw plate string:

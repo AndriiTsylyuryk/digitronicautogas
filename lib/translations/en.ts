@@ -58,7 +58,7 @@ export const en: Translation = {
       'Leave your details and we will contact you to discuss LPG solutions for your vehicle.',
     plate: {
       label: 'License Plate',
-      placeholder: 'ABC 123',
+      placeholder: '123 ABC',
       hint: 'Estonian vehicle registration number',
     },
     phone: {
@@ -85,7 +85,7 @@ export const en: Translation = {
     },
     validation: {
       plateRequired: 'License plate is required',
-      plateInvalid: 'Please enter a valid Estonian license plate (e.g. ABC 123)',
+      plateInvalid: 'Please enter a valid Estonian license plate (e.g. 123 ABC)',
       phoneRequired: 'Phone number is required',
       phoneInvalid: 'Please enter a valid phone number',
       emailRequired: 'Email address is required',

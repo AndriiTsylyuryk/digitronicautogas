@@ -59,7 +59,7 @@ export const et: Translation = {
       'Jätke oma andmed ja võtame teiega ühendust, et arutada LPG-lahendusi teie sõidukile.',
     plate: {
       label: 'Registreerimismärk',
-      placeholder: 'ABC 123',
+      placeholder: '123 ABC',
       hint: 'Eesti sõiduki registreerimisnumber',
     },
     phone: {
@@ -85,7 +85,7 @@ export const et: Translation = {
     },
     validation: {
       plateRequired: 'Registreerimismärk on kohustuslik',
-      plateInvalid: 'Palun sisestage kehtiv Eesti registreerimismärk (nt ABC 123)',
+      plateInvalid: 'Palun sisestage kehtiv Eesti registreerimismärk (nt 123 ABC)',
       phoneRequired: 'Telefoninumber on kohustuslik',
       phoneInvalid: 'Palun sisestage kehtiv telefoninumber',
       emailRequired: 'E-posti aadress on kohustuslik',
