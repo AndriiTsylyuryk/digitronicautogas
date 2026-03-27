@@ -20,7 +20,7 @@ function ContactItem({ icon, label, value, href }: ContactItemProps) {
         <dt className={styles.itemLabel}>{label}</dt>
         <dd className={styles.itemValue}>
           {href ? (
-            <a href={href} className={styles.itemLink}>
+            <a href={href} className={styles.itemLink} target="_blank" rel="noopener noreferrer">
               {value}
             </a>
           ) : (
@@ -101,6 +101,7 @@ export function Contacts({ t }: Props) {
             icon={icons.address}
             label={items.address.label}
             value={items.address.value}
+            href="https://maps.google.com/?q=Vana-Rannam%C3%B5isa+tee+1d%2F5%2C+13516+Tallinn"
           />
           <ContactItem
             icon={icons.hours}
