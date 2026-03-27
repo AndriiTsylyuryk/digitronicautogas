@@ -99,7 +99,7 @@ export const et: Translation = {
     items: {
       email: { label: 'E-post', value: 'autoremont.est@gmail.com' },
       phone: { label: 'Telefon', value: '+372 5657 1565' },
-      telegram: { label: 'Telegram', value: '@digitronicgas' },
+      telegram: { label: 'Telegram', value: '@Autoremontest' },
       address: { label: 'Aadress', value: 'Paavli tn 4, 10412 Tallinn' },
       hours: { label: 'Tööaeg', value: 'E–R 9:00–18:00' },
     },
