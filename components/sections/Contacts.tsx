@@ -101,7 +101,7 @@ export function Contacts({ t }: Props) {
             icon={icons.address}
             label={items.address.label}
             value={items.address.value}
-            href="https://maps.google.com/?q=Vana-Rannam%C3%B5isa+tee+1d%2F5%2C+13516+Tallinn"
+            href="https://maps.google.com/?q=Paavli+tn+4%2C+10412+Tallinn"
           />
           <ContactItem
             icon={icons.hours}

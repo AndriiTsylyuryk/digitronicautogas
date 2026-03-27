@@ -20,7 +20,7 @@ export function getT(locale: Locale): Translation {
 export const LOCALE_LABELS: Record<Locale, string> = {
   en: 'EN',
   ru: 'RU',
-  et: 'ET',
+  et: 'EST',
 };
 
 /** Full language names for aria-labels and SEO. */

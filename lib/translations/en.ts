@@ -100,7 +100,7 @@ export const en: Translation = {
       email: { label: 'Email', value: 'autoremont.est@gmail.com' },
       phone: { label: 'Phone', value: '+372 5657 1565' },
       telegram: { label: 'Telegram', value: '@digitronicgas' },
-      address: { label: 'Address', value: 'Harju maakond, Tallinn, Haabersti linnaosa, Vana-Rannamõisa tee 1d/5, 13516' },
+      address: { label: 'Address', value: 'Paavli tn 4, 10412 Tallinn' },
       hours: { label: 'Working Hours', value: 'Mon–Fri 9:00–18:00' },
     },
   },
