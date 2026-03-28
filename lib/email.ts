@@ -112,6 +112,7 @@ export async function sendLeadEmail(
   const { error } = await getResend().emails.send({
     from,
     to,
+    replyTo: data.email,
     subject: `New Lead: ${data.plate} — digitronicgas.ee`,
     html: buildHtml(data),
     text: buildText(data),
