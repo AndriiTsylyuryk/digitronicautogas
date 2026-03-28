@@ -52,15 +52,15 @@
 }
 
 .item:hover {
-  border-color: rgba(249, 115, 22, 0.25);
-  box-shadow: 0 4px 20px rgba(249, 115, 22, 0.07);
+  border-color: rgba(74, 174, 222, 0.35);
+  box-shadow: 0 4px 20px rgba(74, 174, 222, 0.1);
 }
 
 .itemIcon {
   width: 40px;
   height: 40px;
   border-radius: var(--radius-md);
-  background: rgba(249, 115, 22, 0.08);
+  background: rgba(74, 174, 222, 0.08);
   color: var(--color-primary);
   display: flex;
   align-items: center;
@@ -91,7 +91,7 @@
 }
 
 .itemLink {
-  color: var(--color-primary-dark);
+  color: var(--color-dark);
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-color: transparent;

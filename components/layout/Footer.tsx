@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Translation } from '@/lib/translations/types';
 import type { Locale } from '@/lib/i18n';
 import { LanguageSwitcher } from './LanguageSwitcher';
@@ -14,9 +15,15 @@ export function Footer({ t, locale }: Props) {
     <footer className={styles.footer} role="contentinfo">
       <div className={styles.inner}>
         <div className={styles.brand}>
-          <span className={styles.brandName}>
-            <span className={styles.accent}>Digitronic</span> Gas
-          </span>
+          <Link href={`/${locale}`} className={styles.logoLink}>
+            <Image
+              src="/logo.png"
+              alt="Digitronic Gas"
+              width={140}
+              height={35}
+              className={styles.logoImg}
+            />
+          </Link>
           <p className={styles.tagline}>{t.footer.tagline}</p>
         </div>
 

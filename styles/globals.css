@@ -1,8 +1,8 @@
 /* ─── Design tokens ──────────────────────────────────────────────────────── */
 :root {
-  --color-primary:        #f97316;
-  --color-primary-dark:   #ea580c;
-  --color-primary-light:  #fb923c;
+  --color-primary:        #4AAEDE;
+  --color-primary-dark:   #2e8fbf;
+  --color-primary-light:  #6dc0e8;
   --color-dark:           #0f172a;
   --color-dark-2:         #1e293b;
   --color-dark-3:         #334155;

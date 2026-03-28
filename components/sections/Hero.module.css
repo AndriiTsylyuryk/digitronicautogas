@@ -1,19 +1,20 @@
 .hero {
   position: relative;
-  background: linear-gradient(160deg, #0a1628 0%, #0f172a 40%, #1a2744 100%);
-  color: #ffffff;
+  background: #ffffff;
+  color: var(--color-dark);
   padding: 120px var(--section-px) 100px;
   overflow: hidden;
   text-align: center;
+  border-bottom: 1px solid var(--color-border);
 }
 
-/* Decorative orange radial gradient behind the headline */
+/* Decorative blue radial gradient behind the headline */
 .glow {
   position: absolute;
   inset: 0;
   background: radial-gradient(
-    ellipse 70% 55% at 50% -10%,
-    rgba(249, 115, 22, 0.18) 0%,
+    ellipse 80% 60% at 50% -10%,
+    rgba(74, 174, 222, 0.12) 0%,
     transparent 65%
   );
   pointer-events: none;
@@ -34,8 +35,8 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(249, 115, 22, 0.1);
-  border: 1px solid rgba(249, 115, 22, 0.25);
+  background: rgba(74, 174, 222, 0.1);
+  border: 1px solid rgba(74, 174, 222, 0.25);
   color: var(--color-primary-light);
   padding: 0.375rem 1rem;
   border-radius: var(--radius-full);
@@ -66,13 +67,13 @@
   line-height: 1.13;
   letter-spacing: -0.03em;
   margin-bottom: 1.5rem;
-  color: #ffffff;
+  color: var(--color-dark);
 }
 
 /* ── Subtitle ─────────────────────────────────────────────────────────── */
 .subtitle {
   font-size: clamp(1rem, 2vw, 1.1875rem);
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--color-text-muted);
   line-height: 1.65;
   max-width: 620px;
   margin-bottom: 2.5rem;
@@ -90,7 +91,7 @@
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.01em;
-  box-shadow: 0 4px 24px rgba(249, 115, 22, 0.35);
+  box-shadow: 0 4px 24px rgba(74, 174, 222, 0.35);
   transition: background var(--transition-base), transform var(--transition-fast),
     box-shadow var(--transition-base);
 }
@@ -98,7 +99,7 @@
 .cta:hover {
   background: var(--color-primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 6px 32px rgba(249, 115, 22, 0.45);
+  box-shadow: 0 6px 32px rgba(74, 174, 222, 0.45);
 }
 
 .cta:active {
@@ -123,7 +124,7 @@
   align-items: center;
   gap: 0.4375rem;
   font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--color-text-muted);
 }
 
 .trustItem svg {

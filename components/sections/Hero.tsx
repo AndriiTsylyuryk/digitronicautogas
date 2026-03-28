@@ -10,8 +10,8 @@ interface Props {
 
 const CheckIcon = () => (
   <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-    <circle cx="7" cy="7" r="7" fill="rgba(249,115,22,0.2)" />
-    <path d="M4 7l2 2 4-4" stroke="#f97316" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx="7" cy="7" r="7" fill="rgba(74,174,222,0.2)" />
+    <path d="M4 7l2 2 4-4" stroke="#4AAEDE" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 

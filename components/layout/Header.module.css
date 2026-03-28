@@ -2,10 +2,8 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(15, 23, 42, 0.95);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--color-border-dark);
+  background: #ffffff;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .inner {
@@ -50,14 +48,14 @@
   border-radius: var(--radius-sm);
   font-size: 0.9rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--color-text);
   transition: color var(--transition-fast), background var(--transition-fast);
   white-space: nowrap;
 }
 
 .navLink:hover {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-primary);
+  background: rgba(74, 174, 222, 0.06);
 }
 
 .navCta {
@@ -66,7 +64,7 @@
   font-size: 0.875rem;
   font-weight: 600;
   color: var(--color-primary-light);
-  border: 1px solid rgba(249, 115, 22, 0.35);
+  border: 1px solid rgba(74, 174, 222, 0.35);
   white-space: nowrap;
   transition: color var(--transition-fast), background var(--transition-fast),
     border-color var(--transition-fast);
